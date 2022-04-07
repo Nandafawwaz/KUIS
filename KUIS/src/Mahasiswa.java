@@ -1,12 +1,11 @@
 import beasiswa.BeasiswaMahasiswa;
 
 public class Mahasiswa implements BeasiswaMahasiswa{
-    // data
+    
     private String nama;
     private double usia;
     private double n1, n2, n3;
 
-    // constructor
     public Mahasiswa(String nama, double usia, double n1, double n2, double n3) {
         this.nama = nama;
         this.usia = usia;
@@ -14,8 +13,6 @@ public class Mahasiswa implements BeasiswaMahasiswa{
         this.n2 = n2;
         this.n3 = n3;
     }
-
-    // setter
 
     public void setNilaiMhs(double n1, double n2, double n3) {
         this.n1 = n1;
